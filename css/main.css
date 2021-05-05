@@ -1,0 +1,114 @@
+.main {
+    width: 1200px;
+    margin-top: 178px;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+}
+
+.section {
+
+}
+
+.plot {
+    font-family: "Kaushan Script", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 22px;
+    color:#333333;
+}
+
+.plot_link {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    color:#333333;
+}
+
+.plot_link::after {
+    content: "";
+    display: block;
+    width: 61px;
+    height: 4px;
+    background-color:#F38181;
+    margin: 41px auto 0 auto;
+    margin-bottom: 65px;
+}
+
+.card_text_wrapper {
+    width: 270px;
+    display: inline-block;
+}
+
+
+
+.card { 
+    width: 330px;
+    text-align: left;
+    margin-bottom: 99px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.card_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card_image_title {
+    color:#333333;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase; 
+}
+
+.card::before {
+    content: '';
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.clock::before {
+    background-image: url('../images/icons/ALARM.1.png');
+}
+
+.web_desing::before {
+    background-image: url('../images/icons/LINEGRAPH@.png');
+}
+
+.creativity::before {
+    background-image: url('../images/icons/COMPUTER.3.png');
+}
+
+.seo::before {
+    background-image: url('../images/icons/BOOK.2.png');
+}
+
+.css_html::before {
+    background-image: url('../images/icons/HOME.4.png');
+}
+
+.digital::before {
+    background-image: url('../images/icons/IMAGE.5.png');
+}
+
+
+.card_image_desc {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    color: #999999;
+    margin-top: 20px;
+}
+
+
